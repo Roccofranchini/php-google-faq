@@ -21,6 +21,10 @@ h3 {
 	padding-bottom: 20px;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* style */
 
 header .logos img {
