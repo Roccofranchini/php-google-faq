@@ -90,6 +90,23 @@
             ?>
         </div>
     </main>
-    <footer></footer>
+    <footer class="py-2">
+        <div class="container d-flex justify-content-between ">
+            <ul class="d-flex m-0 p-0">
+                <li>Google</li>
+                <li>Tutto su Google</li>
+                <li>Privacy</li>
+                <li>Termini</li>
+            </ul>
+            <div class="lang d-flex align-items-center">
+            <i class="fas fa-language pe-2"></i>
+            <select name="" id="">
+                <option value="Italiano">Italiano</option>
+                <option value="Inglese">Inglese</option>
+                <option value="Francese">Francese</option>
+            </select>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

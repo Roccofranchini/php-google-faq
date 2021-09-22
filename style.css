@@ -21,11 +21,6 @@ h3 {
 	padding-bottom: 20px;
 }
 
-header li {
-	list-style-type: none;
-	padding: 0 15px 0 0;
-}
-
 /* style */
 
 header .logos img {
@@ -36,7 +31,33 @@ header .user i {
 	font-size: 25px;
 }
 
+header li {
+	list-style-type: none;
+	padding: 0 15px 0 0;
+}
+
 main ul {
 	margin-bottom: 15px;
 	list-style-type: lower-alpha;
+}
+
+footer {
+	background-color: #f5f5f5;
+}
+
+footer ul li {
+	list-style-type: none;
+	padding: 0 15px 0 0;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+footer i {
+	font-size: 20px;
+}
+
+footer select {
+	width: 180px;
+	height: 18px;
+	font-size: 13px;
 }
