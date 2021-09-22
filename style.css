@@ -1,0 +1,19 @@
+* {
+	font-family: sans-serif;
+	text-decoration: none;
+	line-height: 1.5;
+}
+
+a:visited {
+	color: #0000ff;
+}
+
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+
+h2,
+h3 {
+	padding-top: 40px;
+}
