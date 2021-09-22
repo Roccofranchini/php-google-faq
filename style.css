@@ -1,3 +1,5 @@
+/* generics */
+
 * {
 	font-family: sans-serif;
 	text-decoration: none;
@@ -16,4 +18,25 @@ a:visited {
 h2,
 h3 {
 	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+header li {
+	list-style-type: none;
+	padding: 0 15px 0 0;
+}
+
+/* style */
+
+header .logos img {
+	height: 50px;
+}
+
+header .user i {
+	font-size: 25px;
+}
+
+main ul {
+	margin-bottom: 15px;
+	list-style-type: lower-alpha;
 }

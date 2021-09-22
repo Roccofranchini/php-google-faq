@@ -52,11 +52,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+
     <title>php-google-faq</title>
 </head>
 <body>
-    <header></header>
+    <header class="border-bottom border-3 px-4">
+        <div class="logos d-flex justify-content-between">
+            <div class="logos d-flex align-items-center">
+                <img class="my-2" src="./img/Google-Logo.png" alt="">
+                <h4 class="text-secondary my-2 ps-3">Privacy e termini</h4>
+            </div>
+            <div class="user d-flex">
+                <i class="fas fa-th m-3"></i>
+                <i class="fas fa-user-circle my-3 ms-3"></i>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="d-flex mb-1">
+                <li>Introduzione</li>
+                <li>Norme sulla privacy</li>
+                <li>Termini di servizio</li>
+                <li>Tecnologie</li>
+                <li>Domande frequenti</li>
+            </ul>
+        </div>
+    </header>
     <main>
         <div class="container">
             <?php
